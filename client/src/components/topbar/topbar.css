@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(179, 174, 174);
+}
+.top {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(209, 202, 202);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+  
+}
+.logout{
+  font-size: 1.2em;
+  Color:rgb(238, 109, 45);
+  font-weight: 600;
+  cursor: pointer;
+}
+.logout:hover{
+  color: rgba(201, 10, 55, 0.964);
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topCenter {
+  flex: 6;
+}
+.topIcon {
+  font-size: 10px;
+  font-weight: 600 ;
+  /* margin-right: 10px; */
+  color: rgb(221, 23, 66);
+  cursor: pointer;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  
+}
+.topListItem {
+  /* margin-right: 20px; */
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+ 
+  width: 100px;
+
+
+}
+.topListItem:hover{
+  background-color: rgb(221, 23, 66);
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.topSearchIcon {
+  font-size: 20px;
+  color: rgb(221, 23, 66);
+  cursor: pointer;
+  /* margin-left: 15px; */
+}
+.logo{
+  width: 75%;
+  
+}
+.extra{
+  width: 145px;
+}

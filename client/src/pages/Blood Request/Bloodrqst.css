@@ -1,0 +1,27 @@
+.rqst{
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post{
+    width: 60%;
+}
+
+.sidebar{
+    width: 30%;
+}
+.button{
+    padding: 1% 5%;
+    border-radius: 10px;
+    margin-left: 2%;
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(221, 23, 66);
+}

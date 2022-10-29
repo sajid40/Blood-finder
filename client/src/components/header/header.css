@@ -1,0 +1,60 @@
+.header {
+  margin-top: 60px;
+ 
+  
+}
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: rgb(221, 23, 66);
+}
+.headerTitleSm{
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+  
+  /* color: white; */
+}
+.headerTitleLg{
+  position: absolute;
+  top: 20%;
+  font-size: 8em;
+  z-index: 1000;
+  /* color: white; */
+}
+.headerImg{
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+  filter: blur(2px);
+  position: absolute;
+}
+
+.buttons{
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgb(5, 5, 5);
+  font-weight: 600;
+  font-size: 1em;
+  color: rgb(221, 23, 66);
+  /* position: relative; */
+  margin: 20px;
+  
+  
+  z-index: 1000;
+  
+}
+.buttons:hover{
+  background-color: rgb(221, 23, 66);
+  color: white;
+}
+.butn{
+  position: relative;
+  text-align: center;
+  margin-top: 300px;
+  
+}
